@@ -1,3 +1,4 @@
+
 # str_input =   input('Введите команду: ')
 
 # if str_input == 'Привет' or str_input == 'привет' or str_input == ' привет': # Если хотя бы одно условие выполняется, 
@@ -22,3 +23,4 @@ if num1 >0 and num2 > 0:
         print(num2)    
 else:
     print('Одно из чисел меньше или равно нулю')    
+
