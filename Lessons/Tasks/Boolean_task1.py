@@ -13,3 +13,25 @@
 
 # if 
 # elif
+
+
+num1=int(input("Введите число 1 :"))
+num2 = int(input('Введите число 2: '))
+operation = input("Введите операцию :")
+
+
+if operation == "+":
+   print(num1+num2)
+elif operation=="-":
+    print(num1-num2)
+elif operation=="*":
+    print(num1/num2)
+elif operation=="/":
+    print(num1/num2)
+
+else:
+    print("неизвестная операция")
+
+
+
+   
