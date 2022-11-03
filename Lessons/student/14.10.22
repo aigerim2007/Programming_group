@@ -1,0 +1,46 @@
+str1="Some text here"
+print(str1)
+num1="documents"
+print(str1[3])
+print(str1[4:])
+print(str1[:9])
+print(str1[4:9])
+a=str1[8]
+print(a)
+print(str1[-1])
+print(str1[::2])
+print(str1[::-1])
+str2="My name is"
+str3=" Aigerim"
+str4=str2+str3
+print(str4)
+str5="documents"
+num1=5
+result1=str5+str(num1)
+print(result1)
+str5=f"player_[{num1}]_active" 
+print(str5)
+str6="loading\n........\ncomplete"
+print(str6)
+str6="""Loading
+.
+.
+.
+.
+"50"
+.
+.
+.
+.
+complete"""
+print(str6)
+str7="text"
+print(str7*3)
+print(str4)
+print(str4.upper())
+print(str4.lower())
+print(str4.swapcase())
+print(str4.capitalize())
+print(str4.find("is"))
+print(str4[str4.find("a"):])
+print(str4[str4.find("string"):])  #просим вывести не существующюю строку, он не находит поэтому выводит последний элемент строки

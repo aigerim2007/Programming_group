@@ -1,0 +1,53 @@
+num1=6
+str1="hello"
+list1=[1231, 454, 6, "sdf", [4, "34", True], num1, str1]
+print(list1)
+str_result=list1[4]
+print(str_result)
+list2=[1,2,3,4]
+list2.append(5) #на элементы
+print(list2)
+list2.remove(2) #на элементы
+print(list2)
+list2.pop(2) #удалит элемент по индексу
+list2.append(num1)
+list2.append(str1)
+print(list2)
+list2.remove(str1)
+print(list2)
+list3=[]
+str2="hello world"
+list4=list(str2)
+print(list4)
+list5=[1,2,3,4,5,6,7,8,9,10]
+list5.insert(5,12)
+print(list5)
+list5.sort() #сортирует в порядке возраствния
+print(list5)
+print(list5[::-1])
+list6=[1,2,3,4]
+list7=[5,6,7,8]
+list8=list6+list7
+print(list8)
+print(list6)
+list6.extend(list7)
+print(list6)
+print(list7)
+#создать пустой список
+#добавить в этот список 4 различных элемента
+#удалите элемент под индексом 2
+#дан список list1=["hello", "world" , "13" , 10, 20]
+# отсортировать данный список в порядке возрастания
+list9=[1,2,3,4]
+list9[2]=137
+print(list9)
+
+list10=[]
+list11=[1,2,3,4]
+list10.extend(list11)
+list10.pop(2)
+list12=["hello", "world" , "13" , 10, 20]
+list12[-1]=str(list12[-1])
+list12[-2]=str(list12[-2])
+print(list12)
+
